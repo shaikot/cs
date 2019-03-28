@@ -40,7 +40,7 @@ public class QuickSort {
             }
         }
         swap(nums, i + 1, end);
-        return end;
+        return i + 1;
     }
 
     void swap(int nums[], int i, int j) {
