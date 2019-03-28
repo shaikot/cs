@@ -1,6 +1,14 @@
+import com.cs.algorithms.QuickSort;
+
+import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        QuickSort quickSort = new QuickSort();
+        quickSort.testQuickSort();
     }
+
+
 }
